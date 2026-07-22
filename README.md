@@ -100,10 +100,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0104-maximum-depth-of-binary-tree) |
 | [2685-count-the-number-of-complete-components](https://github.com/ChaithanyaReddy322/LC/tree/master/2685-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0104-maximum-depth-of-binary-tree) |
 | [2685-count-the-number-of-complete-components](https://github.com/ChaithanyaReddy322/LC/tree/master/2685-count-the-number-of-complete-components) |
 ## Enumeration
 |  |
@@ -151,4 +153,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/ChaithanyaReddy322/LC/tree/master/3501-maximize-active-section-with-trade-ii) |
+## Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0104-maximum-depth-of-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0104-maximum-depth-of-binary-tree) |
 <!---LeetCode Topics End-->
