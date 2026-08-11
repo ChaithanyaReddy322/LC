@@ -22,7 +22,6 @@ class Solution {
                 dfs(board, visited, r - 1, j);
         }
 
-        // Convert surrounded O's to X
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
 
