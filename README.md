@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/ChaithanyaReddy322/LC/tree/master/0130-surrounded-regions) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/ChaithanyaReddy322/LC/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0486-predict-the-winner](https://github.com/ChaithanyaReddy322/LC/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ChaithanyaReddy322/LC/tree/master/0628-maximum-product-of-three-numbers) |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/ChaithanyaReddy322/LC/tree/master/0130-surrounded-regions) |
 | [1260-shift-2d-grid](https://github.com/ChaithanyaReddy322/LC/tree/master/1260-shift-2d-grid) |
 | [1301-number-of-paths-with-max-score](https://github.com/ChaithanyaReddy322/LC/tree/master/1301-number-of-paths-with-max-score) |
 ## Sorting
@@ -116,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/ChaithanyaReddy322/LC/tree/master/0130-surrounded-regions) |
 | [2685-count-the-number-of-complete-components](https://github.com/ChaithanyaReddy322/LC/tree/master/2685-count-the-number-of-complete-components) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/ChaithanyaReddy322/LC/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Graph Theory
@@ -152,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0110-balanced-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0110-balanced-binary-tree) |
+| [0130-surrounded-regions](https://github.com/ChaithanyaReddy322/LC/tree/master/0130-surrounded-regions) |
 | [0226-invert-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/ChaithanyaReddy322/LC/tree/master/0404-sum-of-left-leaves) |
 | [2685-count-the-number-of-complete-components](https://github.com/ChaithanyaReddy322/LC/tree/master/2685-count-the-number-of-complete-components) |
@@ -162,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0100-same-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ChaithanyaReddy322/LC/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0130-surrounded-regions](https://github.com/ChaithanyaReddy322/LC/tree/master/0130-surrounded-regions) |
 | [0226-invert-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/ChaithanyaReddy322/LC/tree/master/0404-sum-of-left-leaves) |
 | [2685-count-the-number-of-complete-components](https://github.com/ChaithanyaReddy322/LC/tree/master/2685-count-the-number-of-complete-components) |
