@@ -1,25 +1,50 @@
 class Solution {
-    public int frogJump(int n, int[] heights) {
+    public boolean canCross(int[] stones) {
 
-        int prev = 0;
-        int prev2 = 0;
+        int n = stones.length;
 
-        for (int i = 1; i < n; i++) {
+        // dp[i][k] = can we reach stone i
+        // with the previous jump being k?
+        boolean[][] dp = new boolean[n][n];
 
-            int fs = prev + Math.abs(heights[i] - heights[i - 1]);
+        dp[0][0] = true;
 
-            int ss = Integer.MAX_VALUE;
+        for (int i = 0; i < n; i++) {
 
-            if (i > 1) {
-                ss = prev2 + Math.abs(heights[i] - heights[i - 2]);
+            for (int k = 0; k < n; k++) {
+
+                if (!dp[i][k]) {
+                    continue;
+                }
+
+                for (int jump = k - 1; jump <= k + 1; jump++) {
+
+                    if (jump <= 0) {
+                        continue;
+                    }
+
+                    int nextPosition = stones[i] + jump;
+
+                    for (int j = i + 1; j < n; j++) {
+
+                        if (stones[j] == nextPosition) {
+                            dp[j][jump] = true;
+
+                            if (j == n - 1) {
+                                return true;
+                            }
+
+                            break;
+                        }
+
+                        if (stones[j] > nextPosition) {
+                            break;
+                        }
+                    }
+                }
             }
-
-            int curi = Math.min(fs, ss);
-
-            prev2 = prev;
-            prev = curi;
         }
 
-        return prev;
+        return n == 1;
     }
 }
