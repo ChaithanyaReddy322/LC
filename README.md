@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0130-surrounded-regions](https://github.com/ChaithanyaReddy322/LC/tree/master/0130-surrounded-regions) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/ChaithanyaReddy322/LC/tree/master/0373-find-k-pairs-with-smallest-sums) |
+| [0403-frog-jump](https://github.com/ChaithanyaReddy322/LC/tree/master/0403-frog-jump) |
 | [0486-predict-the-winner](https://github.com/ChaithanyaReddy322/LC/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/ChaithanyaReddy322/LC/tree/master/0628-maximum-product-of-three-numbers) |
 | [0877-stone-game](https://github.com/ChaithanyaReddy322/LC/tree/master/0877-stone-game) |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/ChaithanyaReddy322/LC/tree/master/0070-climbing-stairs) |
+| [0403-frog-jump](https://github.com/ChaithanyaReddy322/LC/tree/master/0403-frog-jump) |
 | [0486-predict-the-winner](https://github.com/ChaithanyaReddy322/LC/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/ChaithanyaReddy322/LC/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/ChaithanyaReddy322/LC/tree/master/1140-stone-game-ii) |
