@@ -1,105 +1,123 @@
 class Solution {
-    public String isPossible(int n, int[] freqIn, String cur, char mid, String target){
-        int[] freq = freqIn.clone(); // copy, since C++ passes freq by value here
-
-        // build the largest possible arrangement of remaining chars (descending order)
-        for(int i=25; i>=0; i--){
-            while(freq[i] > 0){
-                cur += (char)('a'+i);
-                freq[i]--;
-            }
-        }
-
-        if(mid!='#'){
-            // odd-length palindrome: left half + mid + reverse(left half)
-            String temp = cur;
-            cur += mid;
-            temp = new StringBuilder(temp).reverse().toString();
-            cur += temp;
-        }
-        else {
-            // even-length palindrome: left half + reverse(left half)
-            String temp = cur;
-            temp = new StringBuilder(temp).reverse().toString();
-            cur += temp;
-        }
-
-        // feasibility check: only valid if this (largest possible) candidate beats target
-        return cur.compareTo(target) > 0 ? cur : "";
-    }
-
     public String lexPalindromicPermutation(String s, String target) {
-        int n = s.length();
-
-        int[] freq = new int[26];
-
-        if(n==1){
-            if(s.compareTo(target) > 0) return s;
-            else return "";
+        int[] a = new int[26];
+        for (char ch : s.toCharArray()){
+            a[ch - 'a']++;
         }
-
-        for(char c : s.toCharArray())
-            freq[c-'a']++;
-
-        char mid = '#';
-        int oddCount = 0;
-
-        for(int i=0; i<26; i++){
-            if(freq[i]%2 != 0){
-                // odd count -> this becomes the middle character
-                mid = (char)('a'+i);
-                freq[i]--;
-                oddCount++;
+        char mid = '.';
+        for (int i = 0; i < 26; i++){
+            if ((a[i]&1) == 1){
+                if (mid != '.')return "";
+                mid = (char) (i + (int)'a');
             }
-
-            freq[i] /= 2; // each char used freq[i]/2 times in the left half
-
-            if(oddCount>=2) return ""; // more than one odd-frequency char -> can't form a palindrome
+            a[i] /= 2;
         }
-
-        n /= 2; // we only need to construct the left half now
-
-        String res = "", prefix = "";
-
-        // greedily build the left half, position by position
-        for(int i=0; i<n; i++){
-
-            String cur = prefix;
-            boolean isThereAny = false;
-
-            // try smallest character first ('a' -> 'z')
-            for(int j=0; j<26; j++){
-
-                if(freq[j] > 0){
-
-                    freq[j]--;
-                    cur += (char)('a'+j);
-
-                    // check if this prefix can still lead to a palindrome > target
-                    String isPos = isPossible(n, freq, cur, mid, target);
-
-                    if(!isPos.equals("")){
-                        prefix = cur;      // keep this character, lock in the prefix
-                        isThereAny = true;
-
-                        if(res.equals(""))
-                            res = isPos;
-                        else
-                            res = res.compareTo(isPos) < 0 ? res : isPos; // track smallest valid candidate
-
+        StringBuilder str = new StringBuilder();
+        int flag = 0;
+        for (int i = 0; i < s.length() / 2; i++){
+            char ch = target.charAt(i);
+            if (flag == 0){
+                boolean ok  = false;
+                if (a[ch - 'a'] > 0){
+                    a[ch - 'a']--;
+                    str.append(ch);
+                    continue;
+                }
+                for (int j = ch - 'a'; j < 26; j++){
+                    if (a[j] > 0){
+                        a[j]--;
+                        ok =true;
+                        str.append((char) (j + 'a'));
                         break;
                     }
+                }
+                if (ok){
+                    flag = 1;
+                    continue;
+                }
+                for (int j = i - 1; j >= 0 && !ok; j--){
+                    for (int k = 0; k < 26; k++){
+    
+                        if (k > str.charAt(j) - 'a' && a[k] > 0){
+                            a[str.charAt(j) - 'a']++;
+                            str.setCharAt(j, (char) (k + 'a'));
+                            a[k]--;
+                            ok = true;
+                            break;
+                        }
+                    }
+                    if (ok){
+                        i = j;
+                        flag = 1;
+                        // System.out.printf("%d ", i);
+                        break;
+                    }
+                    a[str.charAt(j) - 'a']++;
+                    str.deleteCharAt(str.length() - 1);
+                }
+                if (!ok)return "";
 
-                    // this character doesn't work, undo and try the next one
-                    freq[j]++;
-                    cur = cur.substring(0, cur.length()-1);
+            }
+            else {
+                for (int j = 0; j < 26; j++){
+                    if (a[j] > 0){
+                        a[j]--;
+                        str.append((char) (j + 'a'));
+                        break;
+                    }
                 }
             }
-
-            if(!isThereAny)
-                return ""; // no character works at this position -> impossible
+            
         }
+        StringBuilder con = palind(str, mid);
+        if (comp(con, new StringBuilder(target)) == 1)return con.toString();
+        next_perm(str);
+        con = palind(str, mid);
+        if (comp(con, new StringBuilder(target)) == 1)return con.toString();
+        
+        return "";
 
-        return res; 
+    }
+    int comp(StringBuilder s1, StringBuilder s2){
+        for (int i = 0; i < s1.length(); i++){
+            if (s1.charAt(i) == s2.charAt(i))continue;
+            return s1.charAt(i) < s2.charAt(i) ? -1 : 1;
+        }
+        return 0;
+    }
+    StringBuilder palind(StringBuilder s, char mid){
+        StringBuilder con = new StringBuilder();
+        con.append(s);
+        if (mid != '.') con.append(mid);
+        s.reverse();
+        con.append(s);
+        s.reverse();
+        return con;
+    }
+    void swap(StringBuilder s, int i, int j){
+        s.setCharAt(i, (char) (s.charAt(i) ^ s.charAt(j)));
+        s.setCharAt(j, (char) (s.charAt(i) ^ s.charAt(j)));
+        s.setCharAt(i, (char) (s.charAt(i) ^ s.charAt(j)));
+    }
+    void next_perm(StringBuilder s){
+        int n = s.length();
+        int pos = -1;
+        for (int i = n -2; i >= 0; i--){
+            if (s.charAt(i) < s.charAt(i + 1)){
+                pos = i;
+                break;
+            }
+        }
+        if (pos == -1)return ;
+        for (int i = n - 1; i >= 0; i--){
+            if (s.charAt(i) > s.charAt(pos)){
+                swap(s, i, pos);
+                for (int j = pos + 1, r = n - 1; j < r; j++, r--){
+                    swap(s, j, r);
+                }
+
+                break;
+            }
+        }
     }
 }
