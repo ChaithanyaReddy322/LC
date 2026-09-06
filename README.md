@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/ChaithanyaReddy322/LC/tree/master/0070-climbing-stairs) |
+| [0115-distinct-subsequences](https://github.com/ChaithanyaReddy322/LC/tree/master/0115-distinct-subsequences) |
 | [0403-frog-jump](https://github.com/ChaithanyaReddy322/LC/tree/master/0403-frog-jump) |
 | [0486-predict-the-winner](https://github.com/ChaithanyaReddy322/LC/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/ChaithanyaReddy322/LC/tree/master/0877-stone-game) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/ChaithanyaReddy322/LC/tree/master/0115-distinct-subsequences) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/ChaithanyaReddy322/LC/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1927-sum-game](https://github.com/ChaithanyaReddy322/LC/tree/master/1927-sum-game) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/ChaithanyaReddy322/LC/tree/master/2213-longest-substring-of-one-repeating-character) |
