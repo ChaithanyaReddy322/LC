@@ -223,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/ChaithanyaReddy322/LC/tree/master/0130-surrounded-regions) |
 | [0226-invert-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/ChaithanyaReddy322/LC/tree/master/0404-sum-of-left-leaves) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/ChaithanyaReddy322/LC/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2685-count-the-number-of-complete-components](https://github.com/ChaithanyaReddy322/LC/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/ChaithanyaReddy322/LC/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
@@ -307,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/ChaithanyaReddy322/LC/tree/master/0404-sum-of-left-leaves) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/ChaithanyaReddy322/LC/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -316,6 +318,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0110-balanced-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/ChaithanyaReddy322/LC/tree/master/0404-sum-of-left-leaves) |
+| [2265-count-nodes-equal-to-average-of-subtree](https://github.com/ChaithanyaReddy322/LC/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Counting Sort
 |  |
 | ------- |
