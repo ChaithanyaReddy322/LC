@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0628-maximum-product-of-three-numbers](https://github.com/ChaithanyaReddy322/LC/tree/master/0628-maximum-product-of-three-numbers) |
+| [1096-brace-expansion-ii](https://github.com/ChaithanyaReddy322/LC/tree/master/1096-brace-expansion-ii) |
 | [1288-remove-covered-intervals](https://github.com/ChaithanyaReddy322/LC/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/ChaithanyaReddy322/LC/tree/master/1331-rank-transform-of-an-array) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/ChaithanyaReddy322/LC/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
@@ -139,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/ChaithanyaReddy322/LC/tree/master/0115-distinct-subsequences) |
 | [0940-distinct-subsequences-ii](https://github.com/ChaithanyaReddy322/LC/tree/master/0940-distinct-subsequences-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/ChaithanyaReddy322/LC/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1096-brace-expansion-ii](https://github.com/ChaithanyaReddy322/LC/tree/master/1096-brace-expansion-ii) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/ChaithanyaReddy322/LC/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1927-sum-game](https://github.com/ChaithanyaReddy322/LC/tree/master/1927-sum-game) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/ChaithanyaReddy322/LC/tree/master/2213-longest-substring-of-one-repeating-character) |
@@ -171,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [1096-brace-expansion-ii](https://github.com/ChaithanyaReddy322/LC/tree/master/1096-brace-expansion-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/ChaithanyaReddy322/LC/tree/master/1331-rank-transform-of-an-array) |
 | [1386-cinema-seat-allocation](https://github.com/ChaithanyaReddy322/LC/tree/master/1386-cinema-seat-allocation) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/ChaithanyaReddy322/LC/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
@@ -267,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/ChaithanyaReddy322/LC/tree/master/0130-surrounded-regions) |
 | [0226-invert-binary-tree](https://github.com/ChaithanyaReddy322/LC/tree/master/0226-invert-binary-tree) |
 | [0404-sum-of-left-leaves](https://github.com/ChaithanyaReddy322/LC/tree/master/0404-sum-of-left-leaves) |
+| [1096-brace-expansion-ii](https://github.com/ChaithanyaReddy322/LC/tree/master/1096-brace-expansion-ii) |
 | [2685-count-the-number-of-complete-components](https://github.com/ChaithanyaReddy322/LC/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/ChaithanyaReddy322/LC/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/ChaithanyaReddy322/LC/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -316,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/ChaithanyaReddy322/LC/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+| [1096-brace-expansion-ii](https://github.com/ChaithanyaReddy322/LC/tree/master/1096-brace-expansion-ii) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -379,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [1096-brace-expansion-ii](https://github.com/ChaithanyaReddy322/LC/tree/master/1096-brace-expansion-ii) |
 | [3348-smallest-divisible-digit-product-ii](https://github.com/ChaithanyaReddy322/LC/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Minimax
 |  |
